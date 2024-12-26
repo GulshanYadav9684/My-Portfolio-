@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gulshan Yadav - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<!-- <body style="margin: 0; padding: 0; background: url('image4.jpg') no-repeat center center; background-size: cover; height: 100vh;"> -->
+<body >
+    <header class="animated-header">
+        <h1>Gulshan Yadav</h1>
+        <!-- <p>Software Developer | Java Enthusiast | IT Student</p> -->
+    <p style="
+    font-size: 1.5rem;
+    font-weight: bold;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: transform 0.3s ease;
+    text-align: center;
+    cursor: pointer;
+"
+    onmouseover="this.style.transform='scale(1.1)';"
+    onmouseout="this.style.transform='scale(1)';">
+    Software Developer | Java Enthusiast | IT Student
+</p>
+
+	
+	
+	</header>
+    <nav>
+        <ul>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#experience">Training & Certification</a></li>
+            <li><a href="#Education">Education</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="About">
+            <h2>About Me</h2>
+            <div class="about-container">
+                <img src="yadav.jpg" alt="Gulshan Yadav" class="profile-pic">
+                <p>I am eagerly seeking an internship position in the IT industry
+				where I can apply my software development skills and gain invaluable
+				hands-on experience. With this opportunity,I am confident that I can 
+				enhance my abilities and make a meaningful contribution to your team</p>
+            </div>
+        </section>
+        <section id="Skills">
+            <h2>Skills</h2>
+            <ul class="animated-list">
+                <li>Decision Making</li>
+                <li>Adaptability</li>
+                <li>Leadership</li>
+                <li>Multitasking</li>
+                <li>Teamwork</li>
+                <li>Communication</li>
+            </ul>
+            <h3>Technical Skills</h3>
+    <ul class="tech-skills">
+        <li>
+            <img src="C.png" alt="C/C++ Logo" class="tech-icon">
+            <h1 style="color: black;">C/C++</h1>
+
+        </li>
+        <li>
+            <img src="java.png" alt="Java Logo" class="tech-icon">
+            <h1 style="color: black;">JAVA</h1>
+        </li>
+        <li>
+            <img src="dsa.png" alt="DSA Logo" class="tech-icon">
+           <h1 style="color: black;">Data Structures & Algorithms</h1>           
+		   
+        </li>
+        <li>
+            <img src="sql.png" alt="MySQL Logo" class="tech-icon">
+           <h1 style="color: black;"> MySQL</h1>           
+           
+        </li>
+    </ul>        </section>
+        <section id="Projects">
+           
+		   <h2>Projects</h2>
+            <h3  class="hover-project">Student Result Management System</h3>
+            <p>I developed a Java-based web application for managing student results. <br>
+			It features a user-friendly front end (HTML, JavaScript, CSS) and a robust backend
+			(Java, Servlets, JDBC,MYSQL).<br>
+			The system offers CRUD functionality, scalability, data security, and efficient data retrieval.
+			<br>I used NetBeans with GlassFish Server for development and deployment showcasing my full-stack development skills. </p>
+            
+            <!-- <h2>Projects</h2> -->
+            <h3 class="hover-project">Dynamic NGO WebApplication</h3>
+            <p>A dynamic NGO web app with an HTML-JSP frontend, Spring Boot middleware, 
+			and Java-PostgreSQL backend, offering seamless management, scalability, 
+			and user-friendly features for efficient NGO operations. </p>
+        
+		
+		</section>
+        
+		<section id="experience">
+            <h2>Training and Certifications</h2>
+            <p><strong>Java Developer Trainee</strong> - April 2023 (Present)</p>
+            <ul>
+                <li>Gained proficiency in Java and OOP concepts.</li>
+                <li>Developed web applications using JSP and Servlets.</li>
+            </ul>
+			<p>Certification in Dynamic Web Application from Udemy in the year 2024.</p>
+            <p>Certification in the cloud from AWS in the year 2022.</p>
+            </p>One month virtual Internship at TechnoHack EduTech in C++ in the year 2023</p>
+        </section>
+        <section id="Education">
+            <h2>Education</h2>
+            <p><strong>Malwa Institute of Technology</strong> - B.Tech in IT (2021-2025)</p>
+            <p><strong>Vardhaman Public School</strong> - 12th: 82.5% (2020-2021), 10th: 88.5% (2018-2019)</p>
+        </section>
+        <section id="Contact">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:gulshan01032003yadav@gmail.com">gulshan01032003yadav@gmail.com</a></p>
+            <p>Mobile: +91 9302145984</p>
+            <p>Address: 7/132 Nanda Nagar, Indore</p>
+
+            <h3>Connect With Me</h3>
+            <form action="submit_form.php" method="post">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="mobile">Mobile Number:</label>
+                <input type="tel" id="mobile" name="mobile" required><br><br>
+
+                <label for="linkedin">LinkedIn ID:</label>
+                <input type="url" id="linkedin" name="linkedin" placeholder="https://www.linkedin.com/in/your-profile"><br><br>
+
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address" required><br><br>
+
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required><br><br>
+
+                <label for="message">Message/Additional Information:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" placeholder="Your message here..."></textarea><br><br>
+
+                <button type="submit">Submit</button>
+            </form>
+
+            <h3>Follow Me On</h3>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/gulshan-yadav-014596266" target="_blank"><img src="linkedin.png" alt="LinkedIn"></a>
+                <a href="https://www.instagram.com/gulshanisthere/profilecard/?igsh=cTAzbG8yOXUxbHAy" target="_blank"><img src="insta.jpeg" alt="Instagram"></a>
+                <a href="https://www.facebook.com/profile.php?id=100058260381346&mibextid=ZbWKwL" target="_blank"><img src="facebook.jpeg" alt="Facebook"></a>
+                <a href="https://youtube.com/@ignited_mind727?si=QSqQZVoEK5QKRW7e" target="_blank"><img src="youtube.png" alt="YouTube"></a>
+				<a href="https://github.com/GulshanYadav9684" target="_blank"><img src="github.jpeg" alt="github"></a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Gulshan Yadav. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
